@@ -1,0 +1,110 @@
+
+#divmain{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+#div1{
+display: flex;
+    justify-content: end;
+}
+#div1>span{
+    margin: 10px;
+}
+#div1>a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+#divmain>div>h1{
+    font-size: 50px;
+    margin-left: 20px;
+}
+#divmain>div>p{
+    position: absolute;
+    font-size: 20px;
+    margin-left:20px ;
+}
+#divmain>div>button{
+    background-color: black;
+    color: white;
+    border-radius: 5px ;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 24px;
+    margin-top: 100px;
+    box-shadow:10px 5px 5px  rgb(199, 196, 196)  ;
+}
+#divmain>div>button:hover{
+    background-color: #8CB9BD;
+    color: rgb(0, 0, 0);
+}
+#divmain>div>img{
+    margin-left: 300px;
+}
+#divmain2>div>h2{
+    transform: rotate(270deg);
+    margin-top:150px ;
+    font-size: 30px;
+}
+#divmain2>div>img{
+    width: 190px;
+    height: 160px;
+    justify-content: center;
+    position: absolute;
+    margin-left: 15px;
+
+}
+#divmain2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#divmain2>div>div{
+    background-color:#8CB9BD;
+    width:200px ;
+    height: 150px;
+    border-radius: 9px;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow:10px 5px 5px  rgb(199, 196, 196) ;
+
+}
+#divmain2>div>div>h1{
+    margin: 0;
+    padding-top: 50px;
+}
+
+#divmain2>div> div>p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#divspan{
+    display: flex;
+    justify-content: end;
+    align-content: center;
+
+}
+#divspan>span{
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    height: 30px;
+    width: 30px;
+    box-shadow:10px 5px 5px rgb(199, 196, 196) ;
+    
+}
+#divspan>span:hover{
+    background-color: #8CB9BD; 
+    color: black;
+}
+
+
+
+
+
+
